@@ -56,8 +56,8 @@ def rectangle(start, end):
     begin_fill()
 
     for count in range(4):
-        turtle.forward(end.x - start.x)
-        turtle.left(120)
+        forward(end.x - end.y)
+        left(90)
     
     end_fill()
 
