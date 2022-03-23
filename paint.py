@@ -10,6 +10,7 @@ Exercises
 """
 
 from turtle import *
+import turtle
 
 from freegames import vector
 
@@ -55,8 +56,8 @@ def rectangle(start, end):
     begin_fill()
 
     for count in range(4):
-        forward(end.x - start.x)
-        left(90)
+        turtle.forward(end.x - start.x)
+        turtle.left(120)
     
     end_fill()
 
