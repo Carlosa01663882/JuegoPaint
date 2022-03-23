@@ -40,8 +40,8 @@ def circlep(start, end):
     """Draw circle from start to end."""
     up()
     goto(start.x, start.y)
-    down()
     begin_fill()
+    down()
     x = float(start.x) - float(end.x)
     circle(x)
     end_fill()
